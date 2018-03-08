@@ -22,7 +22,7 @@ namespace AZ_OK_Processor
         private static string targetDatabase = ConfigurationManager.AppSettings["TargetDatabase"];
 
 
-        private static DataSet refData;// = DataManager.GetFileFormat();
+        private static DataSet refData;// = DataManager.GetFileFormat();__
         private static string errorMsgDBConnection = "";
         private static string errorMsgTableExist = "";
 
